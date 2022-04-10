@@ -1,0 +1,23 @@
+
+server:
+  port: 8080
+
+spring:
+  application:
+    name: springboot-rigger
+  profiles:
+    active: dev
+
+redis:
+  db: rigger
+  key:
+    user: 'Guess'
+    resource: 'My:Name'
+  expire:
+    time: 36000
+
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
+  configuration:
+    auto-mapping-behavior: partial
+    map-underscore-to-camel-case: true
