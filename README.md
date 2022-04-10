@@ -29,7 +29,7 @@ src
 ├── dto -- 数据传输封装对象
 ├── enums-- 异常枚举类等业务枚举定义
 ├── exception -- 定义通用异常，业务异常拦截Bean
-|-- modules -- 不同模块入口
+├── modules -- 不同模块入口
    |   ├── controller -- 业务MVC入口
    |   ├── dao -- 数据传输层入口
    |   |—— entity -- 实体类入口
